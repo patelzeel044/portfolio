@@ -1,4 +1,5 @@
 import BlurFade from "@/components/magicui/blur-fade";
+import Navbar from "@/components/navbar";
 import { ProjectCard } from "@/components/project-card";
 import { ResumeCard } from "@/components/resume-card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
@@ -17,6 +18,7 @@ const BLUR_FADE_DELAY = 0.01;
 
 export default function Page() {
   return (
+    <>
     <main className="flex flex-col min-h-[100dvh]">
       <section id="hero">
         <div className="mx-auto w-full max-w-3xl space-y-8">
@@ -190,5 +192,7 @@ export default function Page() {
         </div>
       </section>
     </main>
+    <Navbar />
+    </>
   );
 }

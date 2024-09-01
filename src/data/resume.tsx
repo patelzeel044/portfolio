@@ -84,13 +84,13 @@ export const DATA = {
     {
       company: "Ultron Technologies",
       href: "",
-      badges: ["", "Anand"],
+      badges: ["", "Vidyanagar"],
       location: "On-Site",
       title: "React Intern",
       icon: false,
       logoUrl: "/briefcase-business.svg",
       start: "Jan 2024",
-      end: "Jun 2024",
+      end: "May 2024",
       description:
         "",
     },
@@ -127,7 +127,7 @@ export const DATA = {
   projects: [
     {
       title: "MyTube",
-      href: "https://my-tube-in.vercel.app/",
+      href: "/mytube",
       dates: "",
       active: true,
       description:
@@ -154,7 +154,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://my-tube-in.vercel.app/",
+          href: "/mytube",
           icon: <Icons.globe className="size-3" />,
         },
       ],
